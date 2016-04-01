@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="438384c1-6e93-4e72-91aa-e883db367cb1" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings>
+      <CollectionMapping TypeName="System.Collections.Generic.List`1" Category="List" />
+    </CollectionMappings>
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:8733/DuplexWCFService/DuplexWCFService/mex" Protocol="mex" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="Microsoft.ServiceModel.Samples.wsdl" MetadataType="Wsdl" ID="3dd376c8-a7f7-4e50-8873-8fb707944681" SourceId="1" SourceUrl="http://localhost:8733/DuplexWCFService/DuplexWCFService/mex" />
+    <MetadataFile FileName="service.wsdl" MetadataType="Wsdl" ID="0f1f675a-37d9-4f36-bc0a-54eca94f4892" SourceId="1" SourceUrl="http://localhost:8733/DuplexWCFService/DuplexWCFService/mex" />
+    <MetadataFile FileName="service.xsd" MetadataType="Schema" ID="d8f60c12-f553-4591-903c-75de900a110c" SourceId="1" SourceUrl="http://localhost:8733/DuplexWCFService/DuplexWCFService/mex" />
+    <MetadataFile FileName="DuplexWCFService.Model.xsd" MetadataType="Schema" ID="7420b838-d14d-4806-b42c-9cab1d961162" SourceId="1" SourceUrl="http://localhost:8733/DuplexWCFService/DuplexWCFService/mex" />
+    <MetadataFile FileName="Arrays.xsd" MetadataType="Schema" ID="cc3ab8dc-4aad-4efd-a472-9fef80246e9c" SourceId="1" SourceUrl="http://localhost:8733/DuplexWCFService/DuplexWCFService/mex" />
+    <MetadataFile FileName="Microsoft.ServiceModel.Samples.xsd" MetadataType="Schema" ID="4695da85-fcd1-40ec-8751-e57ee01151dd" SourceId="1" SourceUrl="http://localhost:8733/DuplexWCFService/DuplexWCFService/mex" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
